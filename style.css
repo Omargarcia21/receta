@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #fbfbd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    background-color: #fff;
+    width: 85%;
+    height: auto;
+    border-radius: 3px;
+    margin-top: 35px;
+    padding: 15px;
+}
+.container-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+.container-img img {
+    width: 85%;
+    border-radius: 5px;
+}
+.container-title{
+    margin: 15px 15px 15px 15px;
+}
+.container-title p {
+    color: gray;
+}
+.preparation {
+    margin: 15px 15px 15px 15px;
+    padding: 15px;
+    width: 97%;
+    background-color: #f0e3f4;
+    border-radius: 15px;
+}
+.preparation p {
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+}
+.preparation ul {
+    margin-top: 10px;
+}
+.preparation ul li {
+    margin-bottom: 5px;
+}
+.ingredients h2, 
+.instructions h2, 
+.nutrition h2{
+    color: #8B0000;
+}
+.ingredients ul, 
+.instructions ol {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.ingredients ul li,
+.instructions ol li {
+    margin-bottom: 10px;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+.instructions b{
+    color: #8B0000;
+}
+.instructions ol {
+    list-style-type: #8B0000;
+}
+.instructions ol li{
+    margin-bottom: 10px;
+}
+.nutrition {
+    color: gray;
+}
+.nutrition-info {
+    margin-top: 10px;
+}
+.nutrition-info p{
+    margin-bottom: 5px;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+.calories-num{
+    color: #8B0000;
+}
+.carbs-num{
+    color: #8B0000;
+}
+.protein-num{
+    color: #8B0000;
+}
+.fat-num{
+    color: #8B0000;
+}
+.nutrition-info hr {
+    margin: 5px 0;
+}
